@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="screen">
+            
+        </div>
+        <div class="buttons">
+            <div>
+                
+                <button class="digito" value="1" >1</button>
+                 <button class="digito"value="2" >2</button>
+                <button class="digito"value="3">3</button>
+                <button class="acao" value="l">Limpar</button>
+                
+            </div>
+            <div>
+                
+                <button class="digito" value="4">4</button>
+                <button class="digito" value="5">5</button>
+                <button class="digito"value="6">6</button>
+                <button class="acao"value="*">x</button>
+                
+            </div>
+            <div>
+                
+                <button class="digito"value="7">7</button>
+                <button class="digito"value="8">8</button>
+                <button class="digito"value="9">9</button>
+                <button class="acao"value="/">/</button>
+                
+            </div>
+            <div>
+                
+                <button class="digito"value="0">0</button>
+                <button class="acao"value="-">-</button>
+                <button class="acao"value="+">+</button>
+                <button class="acao"value="=">=</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var buttonDigite= document.getElementsByClassName('digito') 
+        for (let i = 0; i < buttonDigite.length; i++) {
+            buttonDigite[i].onclick=buttonDigiteClick;
+            
+        }
+        var buttonAction=document.getElementsByClassName('acao')
+        for (let j = 0; j < buttonAction.length; j++) {
+            buttonAction[j].onclick=buttonActionClick;
+            
+        }
+        
+    </script>
+
+</body>
+</html>

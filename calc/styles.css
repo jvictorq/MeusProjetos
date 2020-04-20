@@ -1,0 +1,47 @@
+#container{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid;
+    align-items: center;
+    justify-items: center;
+    
+}
+#screen{
+    height: 50px;
+    width: 210px;
+    border: 1px solid;
+    margin: 10px auto;
+    text-align: end;
+    font-size: 50px;
+    
+    
+    
+
+}
+.buttons{
+    margin: auto;
+    
+    
+   
+   
+}
+div{
+    height: 50px;
+    width: 214px;
+    margin-bottom: 5px;
+}
+button.digito{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    
+    
+    
+}
+button.acao{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+
+}
